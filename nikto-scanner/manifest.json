@@ -1,0 +1,8 @@
+{
+  "container": "alpine:latest",
+  "install": "apk add --no-cache git perl make && git clone https://github.com/sullo/nikto /opt/nikto",
+  "update": "cd /opt/nikto && git pull",
+  "run": "perl /opt/nikto/program/nikto.pl -h"
+,
+  "about": "Web server scanner. Find vulnerabilities, misconfigs, outdated software"
+}

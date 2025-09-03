@@ -1,0 +1,7 @@
+{
+  "container": "golang:alpine",
+  "install": "go install github.com/securego/gosec/v2/cmd/gosec@latest",
+  "update": "go install -u github.com/securego/gosec/v2/cmd/gosec@latest",
+  "run": "gosec -fmt=json ./...",
+  "about": "Go security checker inspecting source code for security problems. Use -fmt for output format, -severity to filter by severity, -confidence for confidence level"
+}

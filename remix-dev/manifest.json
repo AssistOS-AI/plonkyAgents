@@ -1,0 +1,8 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g create-remix",
+  "update": "npm update -g create-remix",
+  "run": "remix"
+,
+  "about": "Full-stack React framework. Build, dev Remix apps"
+}

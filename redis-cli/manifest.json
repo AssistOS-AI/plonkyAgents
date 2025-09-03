@@ -1,0 +1,6 @@
+{
+  "container": "redis:7-alpine",
+  "install": "apk add --no-cache bash",
+  "update": "echo 'Redis CLI included in image'",
+  "run": "redis-cli"
+}

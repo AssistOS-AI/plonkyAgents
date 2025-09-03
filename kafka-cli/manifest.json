@@ -1,0 +1,6 @@
+{
+  "container": "confluentinc/cp-kafka:latest",
+  "install": "echo 'Kafka tools ready'",
+  "update": "echo 'Updated via container'",
+  "run": "kafka-topics"
+}

@@ -1,0 +1,8 @@
+{
+  "container": "hashicorp/vault:latest",
+  "install": "echo 'Vault CLI ready'",
+  "update": "echo 'Updated via container'",
+  "run": "vault"
+,
+  "about": "HashiCorp Vault for secrets. Store, retrieve, rotate secrets and certificates"
+}

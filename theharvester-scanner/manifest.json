@@ -1,0 +1,7 @@
+{
+  "container": "python:3.11-alpine",
+  "install": "apk add --no-cache git && pip install theHarvester",
+  "update": "pip install --upgrade theHarvester",
+  "run": "theHarvester -d",
+  "about": "OSINT tool for gathering emails, names, subdomains, IPs. Use -d for domain, -b for data source (google,bing,linkedin), -l for limit results"
+}

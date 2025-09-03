@@ -3,4 +3,6 @@
   "install": "gem install bundler rails rspec rubocop pry byebug",
   "update": "gem update --system && gem update bundler rails rspec rubocop pry byebug",
   "run": "irb"
+,
+  "about": "Ruby with bundler, rails, rspec. Run Ruby scripts, test with RSpec"
 }

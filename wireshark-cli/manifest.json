@@ -1,0 +1,7 @@
+{
+  "container": "ubuntu:22.04",
+  "install": "apt-get update && apt-get install -y tshark",
+  "update": "apt-get update && apt-get upgrade -y tshark",
+  "run": "tshark -i any -f 'tcp port 80 or tcp port 443'",
+  "about": "Network protocol analyzer CLI (tshark). Use -i for interface, -f for capture filter, -Y for display filter, -w to save pcap"
+}

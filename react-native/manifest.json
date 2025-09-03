@@ -1,0 +1,8 @@
+{
+  "container": "reactnativecommunity/react-native-android:latest",
+  "install": "npm install -g react-native-cli expo-cli",
+  "update": "npm update -g react-native-cli expo-cli",
+  "run": "react-native"
+,
+  "about": "Mobile app framework. Build, bundle React Native apps"
+}

@@ -1,0 +1,8 @@
+{
+  "container": "alpine:latest",
+  "install": "apk add --no-cache masscan libpcap-dev",
+  "update": "apk update && apk upgrade masscan",
+  "run": "masscan -p1-65535 --rate=1000"
+,
+  "about": "Fast port scanner. Scan entire internet in 6 minutes. Use --rate for speed"
+}

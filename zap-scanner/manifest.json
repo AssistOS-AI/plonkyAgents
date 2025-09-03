@@ -1,0 +1,8 @@
+{
+  "container": "owasp/zap2docker-stable:latest",
+  "install": "echo 'OWASP ZAP ready'",
+  "update": "echo 'Updated via container'",
+  "run": "zap-baseline.py -t"
+,
+  "about": "OWASP ZAP security scanner. Find vulnerabilities in web apps"
+}

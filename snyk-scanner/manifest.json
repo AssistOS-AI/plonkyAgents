@@ -1,0 +1,7 @@
+{
+  "container": "snyk/snyk:alpine",
+  "install": "echo 'Snyk CLI ready'",
+  "update": "echo 'Updated via container'",
+  "run": "snyk test --json",
+  "about": "Vulnerability scanner for dependencies and code. Use 'snyk test' for deps, 'snyk code test' for SAST, --severity-threshold=high to filter, needs SNYK_TOKEN env var"
+}

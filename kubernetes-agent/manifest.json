@@ -3,4 +3,6 @@
   "install": "apt-get update && apt-get install -y curl && curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash",
   "update": "helm repo update",
   "run": "kubectl"
+,
+  "about": "kubectl for K8s management. Deploy, scale, debug Kubernetes resources"
 }

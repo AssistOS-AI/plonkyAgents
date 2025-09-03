@@ -1,0 +1,8 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g astro",
+  "update": "npm update -g astro",
+  "run": "astro"
+,
+  "about": "Static site generator. Build fast, content-focused websites"
+}

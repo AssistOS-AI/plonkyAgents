@@ -3,4 +3,6 @@
   "install": "npm install -g @qwen-code/qwen-code && apt-get update && apt-get install -y git curl",
   "update": "npm update -g @qwen-code/qwen-code",
   "run": "qwen"
+,
+  "about": "Alibaba's open-source AI coding tool. Supports 256K-1M tokens. Needs OPENAI_API_KEY and OPENAI_BASE_URL env vars"
 }

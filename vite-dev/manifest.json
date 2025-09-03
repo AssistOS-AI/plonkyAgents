@@ -1,0 +1,8 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g vite",
+  "update": "npm update -g vite",
+  "run": "vite"
+,
+  "about": "Fast build tool. Dev server, HMR, optimized production builds"
+}

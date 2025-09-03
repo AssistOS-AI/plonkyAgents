@@ -1,0 +1,8 @@
+{
+  "container": "dizcza/docker-hashcat:latest",
+  "install": "echo 'Hashcat ready for hash cracking'",
+  "update": "echo 'Updated via container'",
+  "run": "hashcat -m 0 -a 0"
+,
+  "about": "Advanced password recovery. GPU-accelerated hash cracking"
+}

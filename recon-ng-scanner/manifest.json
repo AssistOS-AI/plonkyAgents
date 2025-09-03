@@ -1,0 +1,7 @@
+{
+  "container": "python:3.11",
+  "install": "git clone https://github.com/lanmaster53/recon-ng.git /opt/recon-ng && cd /opt/recon-ng && pip install -r REQUIREMENTS",
+  "update": "cd /opt/recon-ng && git pull && pip install -r REQUIREMENTS",
+  "run": "python /opt/recon-ng/recon-ng",
+  "about": "Web reconnaissance framework. Use marketplace to install modules, db for database ops, modules for running recon tasks"
+}

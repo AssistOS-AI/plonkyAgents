@@ -1,0 +1,8 @@
+{
+  "container": "cirrusci/flutter:stable",
+  "install": "flutter doctor",
+  "update": "flutter upgrade",
+  "run": "flutter"
+,
+  "about": "Cross-platform UI toolkit. Build, test, analyze Flutter apps"
+}

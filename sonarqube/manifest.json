@@ -1,0 +1,8 @@
+{
+  "container": "sonarsource/sonar-scanner-cli:latest",
+  "install": "echo 'SonarQube scanner ready'",
+  "update": "echo 'Updated via container'",
+  "run": "sonar-scanner"
+,
+  "about": "Code quality and security analysis. Detect bugs, vulnerabilities, code smells"
+}

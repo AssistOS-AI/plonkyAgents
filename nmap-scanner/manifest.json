@@ -1,0 +1,7 @@
+{
+  "container": "instrumentisto/nmap:latest",
+  "install": "echo 'Nmap ready for network scanning'",
+  "update": "echo 'Updated via container'",
+  "run": "nmap -sV -sC -O -A --script vuln",
+  "about": "Network discovery and security auditing. Use -sV service detection, -sC scripts, -O OS detection, -A aggressive, -p ports, target IP/range"
+}

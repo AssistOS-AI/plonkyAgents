@@ -1,0 +1,8 @@
+{
+  "container": "projectdiscovery/nuclei:latest",
+  "install": "nuclei -update-templates",
+  "update": "nuclei -update && nuclei -update-templates",
+  "run": "nuclei -t cves/ -severity critical,high"
+,
+  "about": "Template-based vulnerability scanner. Use CVE templates for targeted scanning"
+}

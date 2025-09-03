@@ -3,4 +3,6 @@
   "install": "echo 'AWS CLI pre-installed'",
   "update": "echo 'Container will update on next pull'",
   "run": "aws"
+,
+  "about": "AWS cloud management. Manage EC2, S3, Lambda, IAM and all AWS services"
 }

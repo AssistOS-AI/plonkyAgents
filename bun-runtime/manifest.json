@@ -1,0 +1,6 @@
+{
+  "container": "oven/bun:alpine",
+  "install": "echo 'Bun runtime ready'",
+  "update": "bun upgrade",
+  "run": "bun"
+}

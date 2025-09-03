@@ -1,0 +1,8 @@
+{
+  "container": "minlag/mermaid-cli:latest",
+  "install": "echo 'Mermaid CLI ready'",
+  "update": "echo 'Updated via container'",
+  "run": "mmdc"
+,
+  "about": "Diagram generator. Create flowcharts, sequence diagrams from text"
+}

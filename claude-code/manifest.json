@@ -2,5 +2,6 @@
   "container": "node:20-bullseye",
   "install": "npm install -g @anthropic-ai/claude-code && apt-get update && apt-get install -y git curl",
   "update": "npm update -g @anthropic-ai/claude-code",
-  "run": "claude"
+  "run": "claude",
+  "about": "Anthropic's AI coding assistant. Interactive CLI for code generation, debugging, and refactoring. Needs ANTHROPIC_API_KEY env var"
 }

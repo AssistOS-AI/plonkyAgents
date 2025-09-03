@@ -1,0 +1,8 @@
+{
+  "container": "alpine:latest",
+  "install": "apk add --no-cache john",
+  "update": "apk update && apk upgrade john",
+  "run": "john --wordlist=/usr/share/john/password.lst"
+,
+  "about": "Password cracker. Crack hashes with wordlists and rules"
+}

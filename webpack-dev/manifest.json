@@ -1,0 +1,8 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g webpack webpack-cli webpack-dev-server",
+  "update": "npm update -g webpack webpack-cli webpack-dev-server",
+  "run": "webpack"
+,
+  "about": "Module bundler. Bundle, optimize, analyze JavaScript applications"
+}

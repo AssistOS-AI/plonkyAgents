@@ -1,0 +1,8 @@
+{
+  "container": "python:3.11-alpine",
+  "install": "apk add --no-cache git && git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git /opt/sqlmap",
+  "update": "cd /opt/sqlmap && git pull",
+  "run": "python /opt/sqlmap/sqlmap.py --batch --risk=1 --level=1"
+,
+  "about": "SQL injection tool. Detect and exploit SQL injection flaws"
+}

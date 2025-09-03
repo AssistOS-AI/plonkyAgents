@@ -1,0 +1,8 @@
+{
+  "container": "wpscanteam/wpscan:latest",
+  "install": "echo 'WPScan ready for WordPress scanning'",
+  "update": "gem update wpscan",
+  "run": "wpscan --url"
+,
+  "about": "WordPress vulnerability scanner. Find vulnerable plugins, themes"
+}

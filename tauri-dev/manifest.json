@@ -1,0 +1,8 @@
+{
+  "container": "rust:1.75-bullseye",
+  "install": "cargo install create-tauri-app tauri-cli && apt-get update && apt-get install -y libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev",
+  "update": "cargo install --force tauri-cli",
+  "run": "cargo tauri"
+,
+  "about": "Rust-based desktop apps. Smaller, faster alternative to Electron"
+}

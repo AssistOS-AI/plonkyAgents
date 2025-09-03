@@ -1,0 +1,6 @@
+{
+  "container": "golang:alpine",
+  "install": "go install github.com/OJ/gobuster/v3@latest",
+  "update": "go install -u github.com/OJ/gobuster/v3@latest",
+  "run": "gobuster dir -u"
+}

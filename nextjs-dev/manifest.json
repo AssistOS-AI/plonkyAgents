@@ -1,0 +1,8 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g create-next-app",
+  "update": "npm update -g create-next-app",
+  "run": "next"
+,
+  "about": "React framework. Build, dev, export Next.js applications"
+}

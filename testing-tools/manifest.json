@@ -3,4 +3,6 @@
   "install": "npm install -g jest mocha chai cypress playwright @playwright/test vitest @testing-library/react @testing-library/jest-dom",
   "update": "npm update -g jest mocha chai cypress playwright @playwright/test vitest @testing-library/react @testing-library/jest-dom",
   "run": "jest"
+,
+  "about": "JavaScript test frameworks (Jest, Mocha, Playwright). Unit, integration, E2E tests"
 }

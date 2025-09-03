@@ -3,4 +3,6 @@
   "install": "apt-get update && apt-get install -y git curl zip unzip && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer",
   "update": "composer self-update",
   "run": "php"
+,
+  "about": "PHP 8.3 with Composer. Run scripts, manage dependencies, test PHP applications"
 }

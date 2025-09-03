@@ -1,0 +1,6 @@
+{
+  "container": "node:20-alpine",
+  "install": "npm install -g esbuild",
+  "update": "npm update -g esbuild",
+  "run": "esbuild"
+}

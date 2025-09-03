@@ -3,4 +3,6 @@
   "install": "apt-get update && apt-get install -y postgresql-client mysql-client redis-tools mongodb-clients sqlite3 curl wget",
   "update": "apt-get update && apt-get upgrade -y postgresql-client mysql-client redis-tools mongodb-clients sqlite3",
   "run": "bash"
+,
+  "about": "Multiple DB clients (MySQL, PostgreSQL, Redis, MongoDB, SQLite)"
 }

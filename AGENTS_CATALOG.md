@@ -1,219 +1,294 @@
-# Plonky Agents Catalog
+# Plonky Agents Catalog - CLI Power Tools
 
-## AI-Powered CLI Agents
+**Total: 56 agents** - Focusați pe CLI puternice și generare de rapoarte/insights
+
+## 🤖 AI-Powered CLI Agents (3)
 
 ### claude-code
 - **Container**: node:20-bullseye
-- **Description**: Anthropic's Claude Code CLI for AI-powered coding assistance
-- **Run Command**: `ploinky run agent claude-code`
-- **Features**: Code generation, debugging, file management, project automation
+- **Description**: Anthropic's Claude Code CLI for AI-powered coding
+- **Usage**: `ploinky run agent claude-code "refactor this code"`
+- **Output**: Code generation, debugging, automated fixes
 
 ### gemini-cli  
 - **Container**: node:20-bullseye
-- **Description**: Google's Gemini CLI with 1M token context window
-- **Run Command**: `ploinky run agent gemini-cli`
-- **Features**: Natural language commands, ReAct loop, MCP servers support
+- **Description**: Google's Gemini CLI with 1M token context
+- **Usage**: `ploinky run agent gemini-cli "analyze this error"`
+- **Output**: Natural language analysis and solutions
 
 ### qwen-code
 - **Container**: node:20-bullseye
 - **Description**: Alibaba's open-source Qwen Code CLI
-- **Run Command**: `ploinky run agent qwen-code`
-- **Features**: 256K-1M token context, workflow automation, privacy-focused
+- **Usage**: `ploinky run agent qwen-code "implement feature"`
+- **Output**: Code generation with 256K-1M context
 
-## Programming Languages
+## 💻 Programming Languages (9)
 
 ### python-dev
-- **Container**: python:3.11-bullseye
-- **Description**: Python development environment with common tools
-- **Run Command**: `ploinky run agent python-dev`
-- **Tools**: pytest, black, flake8, mypy, pylint, jupyter, pandas, numpy, flask, django, fastapi
+- **Tools**: pytest, black, flake8, mypy, pylint, jupyter
+- **Usage**: `ploinky run agent python-dev pytest --cov`
+- **Output**: Test reports, coverage analysis
 
 ### node-dev
-- **Container**: node:20-bullseye
-- **Description**: Node.js/TypeScript development environment
-- **Run Command**: `ploinky run agent node-dev`
-- **Tools**: typescript, ts-node, jest, mocha, eslint, prettier, webpack, vite
+- **Tools**: typescript, jest, eslint, prettier
+- **Usage**: `ploinky run agent node-dev jest --coverage`
+- **Output**: Test results, linting reports
 
 ### rust-dev
-- **Container**: rust:1.75-bullseye
-- **Description**: Rust development environment
-- **Run Command**: `ploinky run agent rust-dev`
-- **Tools**: cargo, rustfmt, clippy, cargo-watch, cargo-audit
+- **Tools**: cargo, rustfmt, clippy, cargo-audit
+- **Usage**: `ploinky run agent rust-dev cargo test`
+- **Output**: Test results, security audit reports
 
 ### go-dev
-- **Container**: golang:1.21-bullseye
-- **Description**: Go development environment
-- **Run Command**: `ploinky run agent go-dev`
-- **Tools**: gopls, delve debugger, golangci-lint
+- **Tools**: gopls, delve, golangci-lint
+- **Usage**: `ploinky run agent go-dev go test -cover`
+- **Output**: Test coverage, lint analysis
 
 ### java-dev
-- **Container**: maven:3.9-openjdk-17
-- **Description**: Java development with Maven and Gradle
-- **Run Command**: `ploinky run agent java-dev`
-- **Tools**: Maven, Gradle, OpenJDK 17
+- **Tools**: Maven, Gradle
+- **Usage**: `ploinky run agent java-dev mvn test`
+- **Output**: JUnit reports, build artifacts
 
 ### cpp-dev
-- **Container**: gcc:13
-- **Description**: C/C++ development environment
-- **Run Command**: `ploinky run agent cpp-dev`
-- **Tools**: gcc, g++, cmake, clang-format, gdb, valgrind
+- **Tools**: gcc, cmake, clang-format, gdb, valgrind
+- **Usage**: `ploinky run agent cpp-dev valgrind ./app`
+- **Output**: Memory leak reports, profiling
 
 ### php-dev
-- **Container**: php:8.3-cli
-- **Description**: PHP development environment
-- **Run Command**: `ploinky run agent php-dev`
 - **Tools**: PHP 8.3, Composer
+- **Usage**: `ploinky run agent php-dev composer test`
+- **Output**: PHPUnit results
 
 ### ruby-dev
-- **Container**: ruby:3.3
-- **Description**: Ruby development environment
-- **Run Command**: `ploinky run agent ruby-dev`
-- **Tools**: bundler, rails, rspec, rubocop, pry
+- **Tools**: bundler, rails, rspec, rubocop
+- **Usage**: `ploinky run agent ruby-dev rspec`
+- **Output**: Test specs, style violations
 
 ### dotnet-dev
-- **Container**: mcr.microsoft.com/dotnet/sdk:8.0
-- **Description**: .NET development environment
-- **Run Command**: `ploinky run agent dotnet-dev`
-- **Tools**: .NET 8.0 SDK, Entity Framework, dotnet-format
+- **Tools**: .NET 8.0 SDK, Entity Framework
+- **Usage**: `ploinky run agent dotnet-dev dotnet test`
+- **Output**: Test results, code coverage
 
-## Testing & Quality
+## 🗄️ Database CLI Tools (4)
 
-### testing-tools
-- **Container**: node:20-bullseye
-- **Description**: JavaScript testing frameworks
-- **Run Command**: `ploinky run agent testing-tools`
-- **Tools**: jest, mocha, chai, cypress, playwright, vitest
+### redis-cli
+- **Usage**: `ploinky run agent redis-cli --scan`
+- **Output**: Key analysis, memory stats
 
-### linting-tools
-- **Container**: node:20-bullseye
-- **Description**: Code linting and formatting tools
-- **Run Command**: `ploinky run agent linting-tools`
-- **Tools**: eslint, prettier, stylelint, htmlhint, markdownlint, biome
+### postgres-cli
+- **Usage**: `ploinky run agent postgres-cli -c "SELECT * FROM pg_stat_activity"`
+- **Output**: Query results, performance metrics
 
-### security-scanner
-- **Container**: aquasec/trivy:latest
-- **Description**: Security vulnerability scanning
-- **Run Command**: `ploinky run agent security-scanner`
-- **Tools**: Trivy, nmap, nikto
-
-## DevOps & Infrastructure
-
-### docker-agent
-- **Container**: docker:24-cli
-- **Description**: Docker CLI for container management
-- **Run Command**: `ploinky run agent docker-agent`
-- **Features**: Docker commands, container management
-
-### kubernetes-agent
-- **Container**: bitnami/kubectl:latest
-- **Description**: Kubernetes cluster management
-- **Run Command**: `ploinky run agent kubernetes-agent`
-- **Tools**: kubectl, helm
-
-### terraform-agent
-- **Container**: hashicorp/terraform:1.6
-- **Description**: Infrastructure as Code with Terraform
-- **Run Command**: `ploinky run agent terraform-agent`
-- **Features**: Terraform CLI for infrastructure provisioning
-
-### aws-cli-agent
-- **Container**: amazon/aws-cli:latest
-- **Description**: AWS cloud management
-- **Run Command**: `ploinky run agent aws-cli-agent`
-- **Features**: Full AWS CLI capabilities
-
-## Version Control & Collaboration
-
-### github-cli-agent
-- **Container**: ghcr.io/cli/cli:latest
-- **Description**: GitHub CLI for repository management
-- **Run Command**: `ploinky run agent github-cli-agent`
-- **Features**: PR management, issues, releases
-
-### gitlab-cli-agent
-- **Container**: alpine:latest
-- **Description**: GitLab CLI for project management
-- **Run Command**: `ploinky run agent gitlab-cli-agent`
-- **Features**: GitLab project and CI/CD management
-
-## Data & Analytics
-
-### data-science
-- **Container**: jupyter/datascience-notebook:latest
-- **Description**: Data science and ML environment
-- **Run Command**: `ploinky run agent data-science`
-- **Tools**: Jupyter Lab, scikit-learn, tensorflow, pytorch, transformers
+### mongodb-cli
+- **Usage**: `ploinky run agent mongodb-cli --eval "db.stats()"`
+- **Output**: Database statistics, collection info
 
 ### database-tools
-- **Container**: ubuntu:22.04
-- **Description**: Database client tools
-- **Run Command**: `ploinky run agent database-tools`
 - **Tools**: PostgreSQL, MySQL, Redis, MongoDB, SQLite clients
+- **Usage**: `ploinky run agent database-tools sqlite3 db.sqlite ".schema"`
+- **Output**: Schema information, query results
 
-## System & Monitoring
+## 🚀 DevOps & Infrastructure (6)
 
-### monitoring-agent
-- **Container**: prom/prometheus:latest
-- **Description**: System monitoring tools
-- **Run Command**: `ploinky run agent monitoring-agent`
-- **Tools**: Prometheus, htop, iotop, iftop
+### docker-agent
+- **Usage**: `ploinky run agent docker-agent ps -a`
+- **Output**: Container status, resource usage
+
+### kubernetes-agent
+- **Usage**: `ploinky run agent kubernetes-agent get pods -o wide`
+- **Output**: Cluster state, resource allocation
+
+### terraform-agent
+- **Usage**: `ploinky run agent terraform-agent plan`
+- **Output**: Infrastructure changes report
+
+### ansible-agent
+- **Usage**: `ploinky run agent ansible-agent-playbook -C site.yml`
+- **Output**: Dry-run changes report
+
+### aws-cli-agent
+- **Usage**: `ploinky run agent aws-cli-agent s3 ls --summarize`
+- **Output**: AWS resource listings, cost analysis
+
+### vault-agent
+- **Usage**: `ploinky run agent vault-agent kv list secret/`
+- **Output**: Secret paths, policies audit
+
+## 🧪 Testing & Quality (5)
+
+### testing-tools
+- **Tools**: jest, mocha, cypress, playwright, vitest
+- **Usage**: `ploinky run agent testing-tools playwright test --reporter=html`
+- **Output**: HTML test reports, screenshots
+
+### linting-tools
+- **Tools**: eslint, prettier, stylelint, markdownlint
+- **Usage**: `ploinky run agent linting-tools eslint . --format json`
+- **Output**: JSON lint reports, auto-fixes
+
+### security-scanner
+- **Tools**: Trivy
+- **Usage**: `ploinky run agent security-scanner fs --severity HIGH .`
+- **Output**: Vulnerability reports, CVE listings
+
+### sonarqube
+- **Usage**: `ploinky run agent sonarqube -Dsonar.projectKey=myproject`
+- **Output**: Code quality metrics, technical debt
+
+### k6-performance
+- **Usage**: `ploinky run agent k6-performance run --summary-export=report.json test.js`
+- **Output**: Performance metrics, load test results
+
+## 🛠️ Build Tools (3)
+
+### webpack-dev
+- **Usage**: `ploinky run agent webpack-dev --analyze`
+- **Output**: Bundle analysis, size reports
+
+### vite-dev
+- **Usage**: `ploinky run agent vite-dev build --logLevel info`
+- **Output**: Build statistics, optimization reports
+
+### esbuild-dev
+- **Usage**: `ploinky run agent esbuild-dev --analyze=verbose`
+- **Output**: Bundle metrics, tree-shaking report
+
+## 📦 Version Control (2)
+
+### github-cli-agent
+- **Usage**: `ploinky run agent github-cli-agent pr list --json`
+- **Output**: PR status, CI results
+
+### gitlab-cli-agent
+- **Usage**: `ploinky run agent gitlab-cli-agent pipeline list`
+- **Output**: Pipeline status, merge requests
+
+## 🌐 Modern JavaScript Runtimes (2)
+
+### deno-runtime
+- **Usage**: `ploinky run agent deno-runtime test --coverage`
+- **Output**: Test coverage reports
+
+### bun-runtime
+- **Usage**: `ploinky run agent bun-runtime test --coverage`
+- **Output**: Fast test execution reports
+
+## 🚀 Framework CLIs (7)
+
+### nextjs-dev
+- **Usage**: `ploinky run agent nextjs-dev build --debug`
+- **Output**: Build analysis, bundle sizes
+
+### remix-dev
+- **Usage**: `ploinky run agent remix-dev build --profile`
+- **Output**: Build performance metrics
+
+### astro-dev
+- **Usage**: `ploinky run agent astro-dev build --verbose`
+- **Output**: Static site generation stats
+
+### react-native
+- **Usage**: `ploinky run agent react-native bundle --dev false`
+- **Output**: Bundle size analysis
+
+### flutter-dev
+- **Usage**: `ploinky run agent flutter-dev analyze`
+- **Output**: Dart analysis, widget tests
+
+### electron-dev
+- **Usage**: `ploinky run agent electron-dev build --publish never`
+- **Output**: Build artifacts, app size
+
+### tauri-dev
+- **Usage**: `ploinky run agent tauri-dev build --verbose`
+- **Output**: Rust + web bundle metrics
+
+## 📡 Message Queues (2)
+
+### kafka-cli
+- **Usage**: `ploinky run agent kafka-cli kafka-topics --describe`
+- **Output**: Topic configurations, partition info
+
+### rabbitmq-cli
+- **Usage**: `ploinky run agent rabbitmq-cli list_queues`
+- **Output**: Queue statistics, message counts
+
+## 🛠️ CLI Utilities (7)
+
+### curl-agent
+- **Usage**: `ploinky run agent curl-agent -w "@curl-format.txt" -o /dev/null -s URL`
+- **Output**: HTTP metrics, response times
+
+### jq-agent
+- **Usage**: `ploinky run agent jq-agent '.dependencies | keys' package.json`
+- **Output**: JSON transformation, data extraction
+
+### ffmpeg-agent
+- **Usage**: `ploinky run agent ffmpeg-agent -i video.mp4 -f null -`
+- **Output**: Media file analysis, codec info
+
+### imagemagick
+- **Usage**: `ploinky run agent imagemagick identify -verbose image.jpg`
+- **Output**: Image metadata, EXIF data
+
+### pandoc-agent
+- **Usage**: `ploinky run agent pandoc-agent README.md -t json`
+- **Output**: Document AST, format conversion
+
+### postman-cli
+- **Usage**: `ploinky run agent postman-cli run collection.json --reporters cli,json`
+- **Output**: API test results, response times
+
+### puppeteer-agent
+- **Usage**: `ploinky run agent puppeteer-agent screenshot.js`
+- **Output**: Page screenshots, performance metrics
+
+## 📊 Data Science (1)
+
+### data-science
+- **Tools**: Jupyter, scikit-learn, tensorflow, pytorch
+- **Usage**: `ploinky run agent data-science jupyter nbconvert --execute notebook.ipynb`
+- **Output**: Executed notebooks, ML model metrics
+
+## 🔧 Documentation (2)
+
+### plantuml-agent
+- **Usage**: `ploinky run agent plantuml-agent -tsvg diagram.puml`
+- **Output**: UML diagrams, architecture visualizations
+
+### mermaid-cli
+- **Usage**: `ploinky run agent mermaid-cli -i diagram.mmd -o output.svg`
+- **Output**: Flowcharts, sequence diagrams
+
+## 🌐 Networking (1)
+
+### ngrok-agent
+- **Usage**: `ploinky run agent ngrok-agent http 3000 --log stdout`
+- **Output**: Tunnel URLs, traffic inspection
+
+## 🔨 System (1)
 
 ### BashAgent
-- **Container**: mcr.microsoft.com/devcontainers/base:debian
-- **Description**: Basic bash environment
-- **Run Command**: `ploinky run agent BashAgent`
-- **Features**: Standard bash shell with basic utilities
+- **Usage**: `ploinky run agent BashAgent "find . -type f -exec wc -l {} + | sort -rn"`
+- **Output**: Any bash command output
 
-## Usage Examples
+---
 
-### Running an AI coding assistant:
+## Quick Examples
+
 ```bash
-ploinky run agent claude-code "Help me refactor this code"
-ploinky run agent gemini-cli "Debug this error"
-```
-
-### Python development:
-```bash
-ploinky run agent python-dev
-# Inside container:
-python script.py
-pytest tests/
-black .
-```
-
-### Running tests:
-```bash
-ploinky run agent testing-tools jest
-ploinky run agent python-dev pytest
-```
-
-### Security scanning:
-```bash
+# Run security scan
 ploinky run agent security-scanner fs .
-ploinky run agent security-scanner image myapp:latest
-```
 
-### Interactive shell:
-```bash
-ploinky run bash python-dev  # Get bash shell in Python container
-ploinky run bash node-dev     # Get bash shell in Node container
-```
+# Test Python project with coverage
+ploinky run agent python-dev pytest --cov --cov-report=html
 
-## Environment Variables
+# Analyze JavaScript bundle
+ploinky run agent webpack-dev --analyze
 
-To use API keys with AI agents, configure them in `.ploinky/.secrets`:
-```bash
-ploinky add env ANTHROPIC_API_KEY "your-key"
-ploinky enable env claude-code ANTHROPIC_API_KEY
+# Check Kubernetes cluster
+ploinky run agent kubernetes-agent get all -A
 
-ploinky add env OPENAI_API_KEY "your-key"  
-ploinky enable env gemini-cli OPENAI_API_KEY
-```
-
-## Updating Agents
-
-Update agent software:
-```bash
-ploinky run update claude-code
-ploinky run update python-dev
+# Performance test
+ploinky run agent k6-performance run --vus 10 --duration 30s test.js
 ```
