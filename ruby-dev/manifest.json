@@ -1,0 +1,6 @@
+{
+  "container": "ruby:3.3",
+  "install": "gem install bundler rails rspec rubocop pry byebug",
+  "update": "gem update --system && gem update bundler rails rspec rubocop pry byebug",
+  "run": "irb"
+}

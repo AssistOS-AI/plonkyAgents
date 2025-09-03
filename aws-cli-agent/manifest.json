@@ -1,0 +1,6 @@
+{
+  "container": "amazon/aws-cli:latest",
+  "install": "echo 'AWS CLI pre-installed'",
+  "update": "echo 'Container will update on next pull'",
+  "run": "aws"
+}

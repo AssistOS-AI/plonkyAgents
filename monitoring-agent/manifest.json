@@ -1,0 +1,6 @@
+{
+  "container": "prom/prometheus:latest",
+  "install": "apk add --no-cache bash curl htop iotop iftop",
+  "update": "echo 'Prometheus updated on container pull'",
+  "run": "prometheus"
+}

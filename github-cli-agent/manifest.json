@@ -1,0 +1,6 @@
+{
+  "container": "ghcr.io/cli/cli:latest",
+  "install": "echo 'GitHub CLI pre-installed'",
+  "update": "gh extension upgrade --all",
+  "run": "gh"
+}

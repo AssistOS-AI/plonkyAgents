@@ -1,0 +1,6 @@
+{
+  "container": "aquasec/trivy:latest",
+  "install": "apk add --no-cache bash git curl nmap nikto",
+  "update": "trivy image --download-db-only",
+  "run": "trivy"
+}

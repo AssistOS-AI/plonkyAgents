@@ -1,0 +1,6 @@
+{
+  "container": "gcc:13",
+  "install": "apt-get update && apt-get install -y cmake clang-format clang-tidy gdb valgrind build-essential",
+  "update": "apt-get update && apt-get upgrade -y",
+  "run": "g++"
+}

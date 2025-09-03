@@ -1,0 +1,6 @@
+{
+  "container": "node:20-bullseye", 
+  "install": "npm install -g @qwen-code/qwen-code && apt-get update && apt-get install -y git curl",
+  "update": "npm update -g @qwen-code/qwen-code",
+  "run": "qwen"
+}
