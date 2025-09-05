@@ -1,7 +1,0 @@
-{
-  "container": "alpine:latest",
-  "install": "apk add --no-cache lynis",
-  "update": "lynis update info",
-  "run": "lynis audit system --quick",
-  "about": "Security auditing tool for Unix/Linux systems. Use 'audit system' for full scan, --quick for fast mode, --pentest for pentesting"
-}

@@ -1,8 +1,0 @@
-{
-  "container": "rust:1.75-bullseye",
-  "install": "rustup component add rustfmt clippy && cargo install cargo-watch cargo-edit cargo-audit cargo-outdated sccache",
-  "update": "rustup update && cargo install --force cargo-watch cargo-edit cargo-audit cargo-outdated sccache",
-  "run": "cargo"
-,
-  "about": "Rust toolchain with cargo, clippy, rustfmt. Build, test, format, and audit Rust projects"
-}

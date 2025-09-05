@@ -1,8 +1,0 @@
-{
-  "container": "vanhauser/hydra:latest",
-  "install": "echo 'Hydra ready for brute-force testing'",
-  "update": "echo 'Updated via container'",
-  "run": "hydra -L users.txt -P passwords.txt"
-,
-  "about": "Password cracker. Brute-force login for many protocols"
-}

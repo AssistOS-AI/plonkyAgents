@@ -1,8 +1,0 @@
-{
-  "container": "alpine:latest",
-  "install": "apk add --no-cache dirb",
-  "update": "apk update && apk upgrade dirb",
-  "run": "dirb"
-,
-  "about": "Web content scanner. Find hidden directories and files"
-}

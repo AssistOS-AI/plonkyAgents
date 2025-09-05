@@ -1,8 +1,0 @@
-{
-  "container": "mongo:7-jammy",
-  "install": "apt-get update && apt-get install -y bash",
-  "update": "apt-get update",
-  "run": "mongosh"
-,
-  "about": "MongoDB shell. Query collections, manage indexes, run aggregations"
-}

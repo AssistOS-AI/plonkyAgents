@@ -1,7 +1,0 @@
-{
-  "container": "trufflesecurity/trufflehog:latest",
-  "install": "echo 'TruffleHog ready for secret scanning'",
-  "update": "echo 'Updated via container'",
-  "run": "trufflehog git file://. --json",
-  "about": "Searches for secrets in git history and filesystems. Supports git, github, gitlab, S3, filesystem. Use --only-verified for confirmed secrets"
-}

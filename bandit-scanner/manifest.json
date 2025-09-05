@@ -1,7 +1,0 @@
-{
-  "container": "python:3.11-alpine",
-  "install": "pip install bandit",
-  "update": "pip install --upgrade bandit",
-  "run": "bandit -r . -f json",
-  "about": "Python security linter that finds common security issues. Use -r for recursive scan, -f for output format (json/csv/xml), -ll for low severity threshold"
-}

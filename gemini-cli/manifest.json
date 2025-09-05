@@ -1,8 +1,0 @@
-{
-  "container": "node:20-bullseye",
-  "install": "npm install -g @google/gemini-cli && apt-get update && apt-get install -y git curl",
-  "update": "npm update -g @google/gemini-cli",
-  "run": "gemini"
-,
-  "about": "Google's AI assistant with 1M token context. Natural language coding and debugging. Needs GEMINI_API_KEY env var"
-}

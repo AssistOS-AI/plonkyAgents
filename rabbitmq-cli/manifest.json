@@ -1,8 +1,0 @@
-{
-  "container": "rabbitmq:3-management-alpine",
-  "install": "echo 'RabbitMQ CLI ready'",
-  "update": "echo 'Updated via container'",
-  "run": "rabbitmqctl"
-,
-  "about": "RabbitMQ management. Queue operations, message routing"
-}

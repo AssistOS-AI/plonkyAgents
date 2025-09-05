@@ -1,8 +1,0 @@
-{
-  "container": "returntocorp/semgrep:latest",
-  "install": "echo 'Semgrep SAST scanner ready'",
-  "update": "semgrep --update",
-  "run": "semgrep --config=auto --json"
-,
-  "about": "Static analysis for security. Find bugs with custom rules. Supports 30+ languages"
-}

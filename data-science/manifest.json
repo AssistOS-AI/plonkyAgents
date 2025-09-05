@@ -1,8 +1,0 @@
-{
-  "container": "jupyter/datascience-notebook:latest",
-  "install": "pip install --upgrade scikit-learn tensorflow pytorch transformers datasets huggingface-hub",
-  "update": "pip install --upgrade pip scikit-learn tensorflow pytorch transformers datasets huggingface-hub",
-  "run": "jupyter lab"
-,
-  "about": "Jupyter with ML libraries. Data analysis, machine learning, visualization"
-}

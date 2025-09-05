@@ -1,8 +1,0 @@
-{
-  "container": "metasploitframework/metasploit-framework:latest",
-  "install": "echo 'Metasploit Framework ready'",
-  "update": "msfupdate",
-  "run": "msfconsole -q -x 'db_status; search type:auxiliary scanner'"
-,
-  "about": "Penetration testing framework. Exploit development, payload generation"
-}

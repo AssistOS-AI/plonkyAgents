@@ -1,8 +1,0 @@
-{
-  "container": "plantuml/plantuml-server:jetty",
-  "install": "echo 'PlantUML ready'",
-  "update": "echo 'Updated via container'",
-  "run": "java -jar /plantuml.jar"
-,
-  "about": "UML diagram generator. Create diagrams from text descriptions"
-}

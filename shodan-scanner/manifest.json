@@ -1,7 +1,0 @@
-{
-  "container": "python:3.11-alpine",
-  "install": "pip install shodan",
-  "update": "pip install --upgrade shodan",
-  "run": "shodan",
-  "about": "Search engine for internet-connected devices. Use 'search' for queries, 'host' for IP info, 'scan' for scanning. Needs SHODAN_API_KEY env var"
-}

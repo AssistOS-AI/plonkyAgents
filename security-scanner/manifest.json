@@ -1,8 +1,0 @@
-{
-  "container": "aquasec/trivy:latest",
-  "install": "apk add --no-cache bash git curl nmap nikto",
-  "update": "trivy image --download-db-only",
-  "run": "trivy"
-,
-  "about": "Trivy vulnerability scanner. Scan containers, filesystems, repos for CVEs"
-}

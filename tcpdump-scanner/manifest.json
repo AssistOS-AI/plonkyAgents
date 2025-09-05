@@ -1,7 +1,0 @@
-{
-  "container": "alpine:latest",
-  "install": "apk add --no-cache tcpdump",
-  "update": "apk update && apk upgrade tcpdump",
-  "run": "tcpdump -i any -n -vv",
-  "about": "Network packet capture and analysis. Use -i for interface, -n skip DNS lookup, -w file.pcap to save, -r to read pcap"
-}

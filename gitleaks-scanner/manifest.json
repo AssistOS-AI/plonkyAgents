@@ -1,7 +1,0 @@
-{
-  "container": "zricethezav/gitleaks:latest",
-  "install": "echo 'Gitleaks ready for secret scanning'",
-  "update": "echo 'Updated via container'",
-  "run": "gitleaks detect --source=. -v",
-  "about": "Detects secrets and API keys in git repos. Use 'detect' for scanning, 'protect' for pre-commit, --redact to hide secrets, -v for verbose"
-}
